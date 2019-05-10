@@ -1,0 +1,29 @@
+version: "3"
+services:
+    sql:
+      image: microsoft/mssql-server-linux # mcr.microsoft.com/mssql/server:2017-latest
+      ports:
+        - "1433:1433"
+      container_name: todosqldata
+      volumes:
+        - ./sqlData:/var/opt/mssql:rw
+      environment: 
+        - ACCEPT_EULA=Y
+        - SA_PASSWORD=password@123
+      # networks: 
+      #   - backend
+
+    todoapi:
+      build: .
+      ports:
+        - "9090:80"
+      container_name: todoapi
+      links:
+        - sql
+#       depends_on:
+#         - sql
+#       networks: 
+#         - backend
+      
+# networks:
+#     backend:

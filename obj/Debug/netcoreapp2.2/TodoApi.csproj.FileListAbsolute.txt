@@ -1,0 +1,14 @@
+/home/hindawy/work/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.csprojAssemblyReference.cache
+/home/hindawy/work/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.csproj.CoreCompileInputs.cache
+/home/hindawy/work/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.RazorAssemblyInfo.cache
+/home/hindawy/work/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.RazorAssemblyInfo.cs
+/home/hindawy/work/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.AssemblyInfoInputs.cache
+/home/hindawy/work/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.AssemblyInfo.cs
+/home/hindawy/work/TodoApi/bin/Debug/netcoreapp2.2/TodoApi.deps.json
+/home/hindawy/work/TodoApi/bin/Debug/netcoreapp2.2/TodoApi.runtimeconfig.json
+/home/hindawy/work/TodoApi/bin/Debug/netcoreapp2.2/TodoApi.runtimeconfig.dev.json
+/home/hindawy/work/TodoApi/bin/Debug/netcoreapp2.2/TodoApi.dll
+/home/hindawy/work/TodoApi/bin/Debug/netcoreapp2.2/TodoApi.pdb
+/home/hindawy/work/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.RazorTargetAssemblyInfo.cache
+/home/hindawy/work/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.dll
+/home/hindawy/work/TodoApi/obj/Debug/netcoreapp2.2/TodoApi.pdb

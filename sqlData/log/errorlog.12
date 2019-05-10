@@ -1,0 +1,70 @@
+2019-05-03 13:12:29.83 Server      Microsoft SQL Server 2017 (RTM-CU14) (KB4484710) - 14.0.3076.1 (X64) 
+	Mar 12 2019 19:29:19 
+	Copyright (C) 2017 Microsoft Corporation
+	Developer Edition (64-bit) on Linux (Ubuntu 16.04.6 LTS)
+2019-05-03 13:12:29.83 Server      UTC adjustment: 0:00
+2019-05-03 13:12:29.83 Server      (c) Microsoft Corporation.
+2019-05-03 13:12:29.83 Server      All rights reserved.
+2019-05-03 13:12:29.83 Server      Server process ID is 32.
+2019-05-03 13:12:29.83 Server      Logging SQL Server messages in file '/var/opt/mssql/log/errorlog'.
+2019-05-03 13:12:29.83 Server      Registry startup parameters: 
+	 -d /var/opt/mssql/data/master.mdf
+	 -l /var/opt/mssql/data/mastlog.ldf
+	 -e /var/opt/mssql/log/errorlog
+2019-05-03 13:12:29.83 Server      SQL Server detected 1 sockets with 2 cores per socket and 4 logical processors per socket, 4 total logical processors; using 4 logical processors based on SQL Server licensing. This is an informational message; no user action is required.
+2019-05-03 13:12:29.83 Server      SQL Server is starting at normal priority base (=7). This is an informational message only. No user action is required.
+2019-05-03 13:12:29.83 Server      Detected 12723 MB of RAM. This is an informational message; no user action is required.
+2019-05-03 13:12:29.84 Server      Using conventional memory in the memory manager.
+2019-05-03 13:12:29.84 Server      Large Page Allocated: 32MB 
+2019-05-03 13:12:29.98 Server      Buffer pool extension is already disabled. No action is necessary. 
+2019-05-03 13:12:30.06 Server      InitializeExternalUserGroupSid failed. Implied authentication will be disabled.
+2019-05-03 13:12:30.07 Server      Implied authentication manager initialization failed. Implied authentication will be disabled.
+2019-05-03 13:12:30.07 Server      Successfully initialized the TLS configuration. Allowed TLS protocol versions are ['1.0 1.1 1.2']. Allowed TLS ciphers are ['ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA:ECDHE-ECDSA-AES128-SHA:AES256-GCM-SHA384:AES128-GCM-SHA256:AES256-SHA256:AES128-SHA256:AES256-SHA:AES128-SHA:!DHE-RSA-AES256-GCM-SHA384:!DHE-RSA-AES128-GCM-SHA256:!DHE-RSA-AES256-SHA:!DHE-RSA-AES128-SHA'].
+2019-05-03 13:12:30.09 Server      The maximum number of dedicated administrator connections for this instance is '1'
+2019-05-03 13:12:30.09 Server      Node configuration: node 0: CPU mask: 0x000000000000000f:0 Active CPU mask: 0x000000000000000f:0. This message provides a description of the NUMA configuration for this computer. This is an informational message only. No user action is required.
+2019-05-03 13:12:30.10 Server      Using dynamic lock allocation.  Initial allocation of 2500 Lock blocks and 5000 Lock Owner blocks per node.  This is an informational message only.  No user action is required.
+2019-05-03 13:12:30.10 Server      In-Memory OLTP initialized on lowend machine.
+2019-05-03 13:12:30.14 Server      Database Instant File Initialization: enabled. For security and performance considerations see the topic 'Database Instant File Initialization' in SQL Server Books Online. This is an informational message only. No user action is required.
+2019-05-03 13:12:30.15 Server      Query Store settings initialized with enabled = 1, 
+2019-05-03 13:12:30.15 spid6s      Starting up database 'master'.
+2019-05-03 13:12:30.15 Server      Software Usage Metrics is disabled.
+2019-05-03 13:12:30.25 spid6s      4 transactions rolled forward in database 'master' (1:0). This is an informational message only. No user action is required.
+2019-05-03 13:12:30.26 spid6s      0 transactions rolled back in database 'master' (1:0). This is an informational message only. No user action is required.
+2019-05-03 13:12:30.26 spid6s      Recovery is writing a checkpoint in database 'master' (1). This is an informational message only. No user action is required.
+2019-05-03 13:12:30.37 spid6s      Resource governor reconfiguration succeeded.
+2019-05-03 13:12:30.37 spid6s      SQL Server Audit is starting the audits. This is an informational message. No user action is required.
+2019-05-03 13:12:30.37 spid6s      SQL Server Audit has started the audits. This is an informational message. No user action is required.
+2019-05-03 13:12:30.43 spid6s      SQL Trace ID 1 was started by login "sa".
+2019-05-03 13:12:30.45 spid6s      Server name is '76b43cb43105'. This is an informational message only. No user action is required.
+2019-05-03 13:12:30.46 spid20s     Always On: The availability replica manager is starting. This is an informational message only. No user action is required.
+2019-05-03 13:12:30.46 spid21s     Starting up database 'msdb'.
+2019-05-03 13:12:30.46 spid23s     Starting up database 'testDB'.
+2019-05-03 13:12:30.46 spid20s     Always On: The availability replica manager is waiting for the instance of SQL Server to allow client connections. This is an informational message only. No user action is required.
+2019-05-03 13:12:30.48 spid9s      Starting up database 'mssqlsystemresource'.
+2019-05-03 13:12:30.49 spid9s      The resource database build version is 14.00.3076. This is an informational message only. No user action is required.
+2019-05-03 13:12:30.51 spid9s      Starting up database 'model'.
+2019-05-03 13:12:30.70 spid23s     Parallel redo is started for database 'testDB' with worker pool size [2].
+2019-05-03 13:12:30.72 spid23s     1 transactions rolled forward in database 'testDB' (5:0). This is an informational message only. No user action is required.
+2019-05-03 13:12:30.73 Server      Failed to verify the Authenticode signature of 'C:\binn\secforwarder.dll'. Signature verification of SQL Server DLLs will be skipped. Genuine copies of SQL Server are signed. Failure to verify the Authenticode signature might indicate that this is not an authentic release of SQL Server. Install a genuine copy of SQL Server or contact customer support.
+2019-05-03 13:12:30.74 spid9s      Polybase feature disabled.
+2019-05-03 13:12:30.74 spid9s      Clearing tempdb database.
+2019-05-03 13:12:30.77 spid6s      0 transactions rolled back in database 'testDB' (5:0). This is an informational message only. No user action is required.
+2019-05-03 13:12:30.77 spid19s     A self-generated certificate was successfully loaded for encryption.
+2019-05-03 13:12:30.77 spid6s      Parallel redo is shutdown for database 'testDB' with worker pool size [2].
+2019-05-03 13:12:30.78 spid19s     Server is listening on [ 'any' <ipv6> 1433].
+2019-05-03 13:12:30.78 spid19s     Server is listening on [ 'any' <ipv4> 1433].
+2019-05-03 13:12:30.78 Server      Server is listening on [ ::1 <ipv6> 1434].
+2019-05-03 13:12:30.78 Server      Server is listening on [ 127.0.0.1 <ipv4> 1434].
+2019-05-03 13:12:30.78 Server      Dedicated admin connection support was established for listening locally on port 1434.
+2019-05-03 13:12:30.78 spid19s     SQL Server is now ready for client connections. This is an informational message; no user action is required.
+2019-05-03 13:12:31.05 spid9s      Starting up database 'tempdb'.
+2019-05-03 13:12:31.32 spid9s      The tempdb database has 1 data file(s).
+2019-05-03 13:12:31.33 spid26s     The Service Broker endpoint is in disabled or stopped state.
+2019-05-03 13:12:31.33 spid26s     The Database Mirroring endpoint is in disabled or stopped state.
+2019-05-03 13:12:31.35 spid26s     Service Broker manager has started.
+2019-05-03 13:12:31.36 spid6s      Recovery is complete. This is an informational message only. No user action is required.
+2019-05-03 13:21:54.78 spid51      Attempting to load library 'xplog70.dll' into memory. This is an informational message only. No user action is required.
+2019-05-03 13:21:54.82 spid51      Using 'xplog70.dll' version '2017.140.3076' to execute extended stored procedure 'xp_msver'. This is an informational message only; no user action is required.
+2019-05-03 13:29:44.57 spid51      Using 'dbghelp.dll' version '4.0.5'
+2019-05-03 13:38:41.41 Logon       Error: 18456, Severity: 14, State: 38.
+2019-05-03 13:38:41.41 Logon       Login failed for user 'sa'. Reason: Failed to open the explicitly specified database 'TodoDB'. [CLIENT: 172.18.0.1]
